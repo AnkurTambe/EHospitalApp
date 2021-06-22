@@ -74,7 +74,7 @@ public class IntroActivity extends AppCompatActivity {
         View view = inflater.inflate(R.layout.layout_dialog, null);
 
         ip = view.findViewById(R.id.et_ip);
-        ip.setText(ipadd.getString("ipc", " "));
+        ip.setText(ipadd.getString("ipc", ""));
 
         builder.setView(view)
                 .setCancelable(false)
@@ -98,7 +98,7 @@ public class IntroActivity extends AppCompatActivity {
                             ).show();
                         } else {
                             ipadd.edit().putString("ipc", ip.getText().toString()).apply();
-                            UserInfoModel.ip = ipadd.getString("ipc", " ");
+                            UserInfoModel.ip = ipadd.getString("ipc", "");
                         }
                         sharedPref = getSharedPreferences("SharedPref", MODE_PRIVATE);
                         boolean isFirstTime = sharedPref.getBoolean("firstTime", true);

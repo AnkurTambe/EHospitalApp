@@ -41,7 +41,7 @@ public class ExampleDialog extends AppCompatDialogFragment {
         View view = inflater.inflate(R.layout.layout_dialog, null);
 
         ip = view.findViewById(R.id.et_ip);
-        ip.setText(ipadd.getString("ipc", " "));
+        ip.setText(ipadd.getString("ipc", ""));
 
         builder.setView(view)
                 .setCancelable(false)
@@ -64,7 +64,7 @@ public class ExampleDialog extends AppCompatDialogFragment {
                             ).show();
                         } else {
                             ipadd.edit().putString("ipc", ip.getText().toString()).apply();
-                            UserInfoModel.ip = ipadd.getString("ipc", " ");
+                            UserInfoModel.ip = ipadd.getString("ipc", "");
 
                         }
                         Toast.makeText(getActivity(), UserInfoModel.ip, Toast.LENGTH_SHORT).show();
