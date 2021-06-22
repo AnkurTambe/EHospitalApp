@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <EditText
+        android:id="@+id/et_ip"
+        tools:text="192.67.109.342"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/bg_et"
+        android:drawableStart="@drawable/ic_ip"
+        android:drawableLeft="@drawable/ic_ip"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="IP Address"
+        android:inputType="phone"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="14sp" />
+
+</RelativeLayout>
