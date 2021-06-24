@@ -17,6 +17,14 @@ For SignUp too, you need to mail the Admin(mailing atleast one admin is sufficie
 
 *APK is the Release section*
 
+Screenshots of the App:
+
+![img1](https://user-images.githubusercontent.com/76391639/123265395-a343e800-d518-11eb-80f2-096ada377e55.jpg)
+![img2](https://user-images.githubusercontent.com/76391639/123265411-a7700580-d518-11eb-8b61-1b75fb0f2384.jpg)
+![img3](https://user-images.githubusercontent.com/76391639/123265425-accd5000-d518-11eb-8daa-60fc399b773d.jpg)
+![img4](https://user-images.githubusercontent.com/76391639/123265439-b060d700-d518-11eb-92ee-332d65739a9e.jpg)
+![img5](https://user-images.githubusercontent.com/76391639/123265454-b3f45e00-d518-11eb-961a-5d32484bc51f.jpg)
+
 The App is based on WAMP local server so, to see the full execution of the app you have to first do following things:
 1. Download WAMP server and install it on your PC. Clone the repo.
 2. Go to the file of WAMP(wamp64) and, then to the 'www' folder located inside it. Generally- C:\wamp64\www
